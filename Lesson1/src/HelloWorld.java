@@ -19,5 +19,10 @@ public class HelloWorld {
     	stu1.name = "Daniel";
     	stu1.score = 48.56f;
     	stu1.manage();
+    	
+    	String arraydemo[] = {"I", " am", " Daniel", "!"};
+    	for (String i:arraydemo){
+    		System.out.print(i);
+    	}
     }
 }
